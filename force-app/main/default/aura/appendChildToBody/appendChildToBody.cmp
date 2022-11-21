@@ -1,0 +1,15 @@
+<aura:component>
+    <lightning:button variant="base" label="Create Element" title="Base action" onclick="{! c.handleClick }"/>
+    <lightning:button variant="base" label="Replace Body" title="Base action" onclick="{! c.replaceBody }"/>
+    <lightning:button variant="base" label="Create div" title="Base action" onclick="{! c.createDiv }"/>
+    <aura:attribute name="dynamicCards" type="Aura.Component[]"/>
+    <aura:handler name="render" value="{!this}" action="{!c.onRender}"/>
+
+    {!v.body}    
+    <!-- <aura:iteration items="{!v.dynamicCards}" var="item">
+       <div> {!item}</div>
+    </aura:iteration> -->
+    <div>
+        {!v.dynamicCards}
+    </div>
+</aura:component>	

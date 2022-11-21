@@ -1,0 +1,9 @@
+.THIS.container{
+    width: 200px;
+}
+.THIS .card_item{
+    padding-left: 20px;
+}
+.THIS.slds-card.slds-theme_success {
+    background-color: royalblue;
+}
