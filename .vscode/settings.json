@@ -5,5 +5,8 @@
     "**/.sfdx": true
   },
   "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home",
-  "editor.defaultFormatter": "salesforce.salesforce-vscode-slds"
+  "editor.defaultFormatter": "salesforce.salesforce-vscode-slds",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
 }
