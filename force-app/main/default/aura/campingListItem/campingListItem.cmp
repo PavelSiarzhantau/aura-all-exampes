@@ -4,7 +4,7 @@
         <div class="container">
             <lightning:card title="{!v.item.Name}" class="{!v.item.Packed__c ?
                                     'slds-theme_success' : ''}">
-                <p class="card_item">
+                <p class="card_item slds-var-p-bottom_small slds-var-p-top_x-small">
                    Price:
                    <lightning:formattedNumber value="{!v.item.Price__c}"
                                               style="currency" />
